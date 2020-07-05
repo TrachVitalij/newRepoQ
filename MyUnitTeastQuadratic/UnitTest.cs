@@ -28,13 +28,13 @@ namespace MyUnitTeastQuadratic
             Assert.AreEqual("Не вірно задані корені рівняння", actual);
         }
 
-        //    [Test]
-        //    public void TestAnswerDiscrEqualNull()
-        //    {
-        //        Quadratic newCoefs = new Quadratic(1,  12, 36);
-        //        string actual = newCoefs.Answer();
-        //        Assert.AreEqual("x = -6", actual);
-        //    }
+        [Test]
+        public void TestAnswerDiscrEqualNull()
+        {
+            Quadratic newCoefs = new Quadratic(1, 12, 36);
+            string actual = newCoefs.Answer();
+            Assert.AreEqual("x = -6", actual);
+        }
 
         //    [Test]
         //    public void TestAnswerDiscrMoreThenNull()
