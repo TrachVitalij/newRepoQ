@@ -36,12 +36,12 @@ namespace MyUnitTeastQuadratic
             Assert.AreEqual("x = -6", actual);
         }
 
-        //    [Test]
-        //    public void TestAnswerDiscrMoreThenNull()
-        //    {
-        //        Quadratic newCoefs = new Quadratic(1, -1, -90);
-        //        string actual = newCoefs.Answer();
-        //        Assert.AreEqual("x1 = 10, x2 = -9", actual);
-        //    }
+        [Test]
+        public void TestAnswerDiscrMoreThenNull()
+        {
+            Quadratic newCoefs = new Quadratic(1, -1, -90);
+            string actual = newCoefs.Answer();
+            Assert.AreEqual("x1 = 10, x2 = -9", actual);
+        }
     }
 }
