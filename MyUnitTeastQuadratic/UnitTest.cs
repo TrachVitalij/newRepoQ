@@ -20,13 +20,13 @@ namespace MyUnitTeastQuadratic
             Assert.AreEqual("Рівняння коренів немає", actual);
         }
 
-        //    [Test]
-        //    public void TestAnswerAequalNull()
-        //    {
-        //        Quadratic newCoefs = new Quadratic(0, 4, 10);
-        //        string actual = newCoefs.Answer();
-        //        Assert.AreEqual("Не вірно задані корені рівняння", actual);
-        //    }
+        [Test]
+        public void TestAnswerAequalNull()
+        {
+            Quadratic newCoefs = new Quadratic(0, 4, 10);
+            string actual = newCoefs.Answer();
+            Assert.AreEqual("Не вірно задані корені рівняння", actual);
+        }
 
         //    [Test]
         //    public void TestAnswerDiscrEqualNull()
